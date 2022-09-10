@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="305px" height="99px" viewBox="0 0 305 99">
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="72px" x="6px" y="93px">
+    <tspan dy="-36px">
+      <tspan font-size="72px" font-family="White Storm" fill="#000000">Mar&#32;de&#32;Hielo</tspan>
+    </tspan>
+    <tspan x="6px" dy="0.4em" dx="15px">
+      <tspan font-size="30px" font-family="Tjelvar Runic" fill="#000000">&#32;Oceano&#32;de&#32;blanco</tspan>
+    </tspan>
+  </text>
+</svg>

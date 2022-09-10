@@ -1,0 +1,30 @@
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+}
+
+.timeline-marker {
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+
+
+  position: relative;
+  width: 0px;
+  height: 15px;
+  outline: 1px solid var(--clr-neutral);
+  margin: -100%;
+}
+
+.timeline-marker-label {
+  font-size: 1em;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  margin: -100%;
+}

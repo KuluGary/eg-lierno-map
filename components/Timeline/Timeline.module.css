@@ -1,0 +1,54 @@
+.timeline-container {
+  height: fit-content;
+  width: 100vw;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 0;
+  z-index: 100000000000000000;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 1) 73%);
+  background-size: contain;
+  pointer-events: none;
+}
+
+.timeline-content-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.timeline-range-container {
+  position: relative;
+  width: fit-content;
+  height: 20px;
+}
+
+.timeline-content-container::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 8px;
+  background-image: linear-gradient(to right, transparent, transparent 8px, var(--clr-neutral) 1px, var(--clr-neutral));
+  outline: 2px solid var(--clr-neutral);
+  background-size: 10px 100%;
+  z-index: -1;
+}
+
+.timeline-timeline-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 8px;
+  opacity: 0.8;
+  width: 100%;
+  align-self: stretch;
+
+  top: 50%;
+  transform: translateY(-50%);
+}

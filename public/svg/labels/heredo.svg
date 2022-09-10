@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450px" height="215px" viewBox="0 0 450 215">
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="48px" x="9px" y="206px">
+    <tspan dy="-162px" dx="150">
+      <tspan font-size="50px" font-family="White Storm" fill="#000000">Tierra de la corona</tspan>
+    </tspan>
+    <tspan x="9px" dy="2.3em"><tspan font-size="200px" font-family="White Storm" fill="#000000">Heredo</tspan></tspan>
+    <tspan x="9px" dy="1.2em" dx="3ch">
+      <tspan font-size="42px" font-family="Tjelvar Runic" font-variant="small-caps" fill="#000000">
+        El imperio dorado
+      </tspan>
+    </tspan>
+  </text>
+</svg>

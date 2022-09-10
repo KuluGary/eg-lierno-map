@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365px" height="217px" viewBox="0 0 365 217">
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="90px" x="9px" y="208px">
+    <tspan dy="-170px" dx="120px">
+      <tspan font-size="46px" font-family="White Storm" fill="#000000">Reinos libres de</tspan>
+    </tspan>
+    <tspan x="9px" dy="1.25em">
+      <tspan font-size="200px" font-family="White Storm" fill="#000000">Árida</tspan>
+    </tspan>
+    <tspan x="9px" dy="0.5em" dx="1.5ch">
+      <tspan font-size="39px" font-family="Tjelvar Runic" font-variant="small-caps" fill="#000000">
+        Reino libre Arida
+      </tspan>
+    </tspan>
+  </text>
+</svg>

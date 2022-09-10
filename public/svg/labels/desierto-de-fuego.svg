@@ -1,0 +1,16 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="403px"
+  height="144px"
+  viewBox="0 0 403 144"
+>
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="72px" x="6px" y="138px">
+    <tspan dy="-76px">
+      <tspan font-size="72px" font-family="White Storm" fill="#000000">Desierto&#32;de&#32;Fuego</tspan>
+    </tspan>
+    <tspan x="6px" dy="0.4em" dx="70px">
+      <tspan font-size="30px" font-family="Tjelvar Runic" fill="#000000">Yermo&#32;ardiente</tspan>
+    </tspan>
+  </text>
+</svg>

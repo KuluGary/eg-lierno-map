@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model MapLabel {
+  id          String    @id
+  name        String
+  headerImage String
+  position    Int[]
+  interactive Boolean   @default(true)
+  unlocked    Boolean   @default(false)
+  createdAt   DateTime? @default(now()) @map(name: "created_at")
+  updatedAt   DateTime  @updatedAt @map(name: "updated_at")
+}
+
+model MapMarker {
+  id          String    @id
+  name        String
+  subtitle    String?
+  headerImage String?
+  position    Int[]
+  icon        String
+  interactive Boolean   @default(true)
+  unlocked    Boolean   @default(false)
+  createdAt   DateTime? @default(now()) @map(name: "created_at")
+  updatedAt   DateTime  @updatedAt @map(name: "updated_at")
+}
+
+model TimelineMarker {
+  id         String    @id @default(uuid())
+  title      String
+  content    String?
+  date_year  Int
+  date_month String?
+  date_day   Int?
+  active     Boolean   @default(false)
+  createdAt  DateTime? @default(now()) @map(name: "created_at")
+  updatedAt  DateTime  @updatedAt @map(name: "updated_at")
+}
+
+model TimelineRange {
+  id        String    @id @default(uuid())
+  name      String
+  data      Json[]
+  createdAt DateTime? @default(now()) @map(name: "created_at")
+  updatedAt DateTime  @updatedAt @map(name: "updated_at")
+}
